@@ -1,0 +1,11 @@
+def get_ascii_code(character):
+    """Returns the ASCII code of the input character."""
+    return ord(character)
+
+# Take user input
+input_character = input("Enter a character: ")
+
+# Get ASCII code of the input character
+ascii_code = get_ascii_code(input_character)
+
+print(f"The ASCII code of '{input_character}' is: {ascii_code}")
